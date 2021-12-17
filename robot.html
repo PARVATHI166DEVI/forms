@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="robot.css">
+    <title>Assignment 4</title>
+</head>
+<body>
+    <h1>Please fill the Pet details</h1>
+<div class="contanier">
+    <form name="pet" onsubmit="return false" id="form1">
+        <label for="name">Name</label> <br> 
+        <input type="text" name="name" placeholder="Name"><br>
+        <label for="age">Age</label> <br> 
+        <input type="text" name="age" placeholder="Age"> <br>
+        <label for="weight">Weight</label><br>
+        <input type="text" name="weight" placeholder="weight"> <br>
+        <label for="favourite">Favourite</label><br>
+        <input type="text" name="favourite" placeholder="Favourite"> <br>
+        <button type="submit" onClick="add(document.pet)">Submit</button>
+    </form>
+</div>
+
+    <script src="robot.js"></script>
+</body>
+</html>
